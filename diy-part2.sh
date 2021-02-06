@@ -28,6 +28,7 @@ rm -rf package/lean/luci-theme-argon && svn co https://github.com/jerrykuku/luci
 
 # 替换更新 passwall 和 ssrplus+
 rm -rf package/openwrt-packages/luci-app-passwall && svn co https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
+rm -rf package/openwrt-passwall/v2ray
 rm -rf package/openwrt-packages/luci-app-ssr-plus && svn co https://github.com/fw876/helloworld package/openwrt-packages/helloworld
 
 # 添加 ssrplus+ 依赖库
